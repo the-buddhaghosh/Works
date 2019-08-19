@@ -1,0 +1,117 @@
+/*-	created on 01-06-2019 from the refrence of Snapdeal  -*/
+.custom_wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-top: 145px;
+}
+.section-padding
+{
+	padding: 10px 0;
+}
+.menu-list {
+	background: #f1f1f1;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.active .menu-title, .active .menu-icon,.list-group-items a:hover,.discription-list-heading a:hover
+{	
+	color: #424ECF !important;
+}
+.menu-item:hover,.menu-item:hover .menu-list{
+	text-decoration: none;
+	color: #424ECF !important;
+}
+.menu-item {	
+	display: block;
+	padding: 10px 0;
+	outline: none;
+}
+.menu-icon {
+	display: inline-block;
+	font-size: 38px;
+	vertical-align: middle;
+	color: #999;
+}
+.menu-title {
+	display: inline-block;
+	font-size: 15px;
+	vertical-align: middle;
+	padding: 0 10px;
+	text-align: left;
+	font-family: Arial;
+	text-transform: uppercase;
+	list-style-type: none;
+	color: #3f3f3f;
+}
+.discription-wrapper ul
+{
+	list-style: none;
+	padding: 20px 0;
+}
+.list-group-items a {
+	color: #363434;
+	font-size: 13px;
+	text-decoration: none;
+}
+.discription-list-heading a
+{
+	color: #363434;
+	font-size: 14px;
+}
+.menu-title-heading {
+	padding: 10px 0;
+}
+.title-icon {
+	display: inline-block;
+	font-size: 38px;
+	width: 68px;
+	height: 68px;
+	background: #424ECF;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	color: #eaeaea;
+}
+.title-icon i
+{
+	vertical-align: middle;
+}
+.title-heading {
+	font-size: 20px;
+	color: #424ECF;
+	padding: 0 14px;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.btn.custom-button {
+	margin-top: 36px;
+	text-decoration: none;
+	color: #6d7075;
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+@media only screen and (max-width: 375px) {
+	.menu-icon {
+
+		font-size: 30px;
+	}
+	.menu-title {
+
+		font-size: 12px;
+		padding: 0 6px;
+	}
+	.title-icon {
+		font-size: 34px;
+		width: 60px;
+		height: 60px;
+	}
+	.title-heading {
+		font-size: 16px;
+		padding: 0 8px;
+	}
+}
